@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 60px;
+    background-color: var(--btn-bg-color);
+}
+.container {
+}
+.footer__content {
+}
+.footer__content-list {
+    display: flex;
+    column-gap: 20px;
+}
+.footer__content-list li{
+    cursor: pointer;
+}
+.footer__content-copyright {
+    margin-top: 20px;
+    color: var(--page-bg);
+}
+.footer__content-privacy {
+    margin-top: 20px;
+    
+    color: var(--page-bg);
+    font-size: 10px;
+}

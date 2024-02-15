@@ -1,0 +1,32 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--page-bg);
+	background-size: 300% 300%;
+
+	animation: move-bg 10s linear infinite;
+
+	color: var(--text-color);
+    font-family: var(--font-main);
+}
+
+@keyframes move-bg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+img{
+	display: block;
+}
+a {
+	color: var(--text-color);
+}

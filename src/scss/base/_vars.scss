@@ -1,0 +1,21 @@
+:root {
+	--container-width: 1920px;
+	--container-padding: 100px;
+
+	--font-main: "Playfair Display", serif;
+	--second-font: "Bona Nova", serif;
+
+	--page-bg: #F0EADB;
+	--text-color: #000;
+
+	--btn-border-radius: #2f2f2f;
+
+	--line-color: #2f2f2f;
+
+	--btn-bg-color: #754F23;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #2f2f2f;
+}
